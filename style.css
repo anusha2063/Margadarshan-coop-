@@ -1,0 +1,145 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    
+    margin: 0;
+    padding: 0;
+}
+.Heading {
+    color: rgb(15, 12, 12);
+    text-align: center;
+    font-weight: bold; 
+    background-image: url(margadarshan\ .jpg); 
+    background-size: cover; 
+    font-family: 'Times New Roman', Times, serif;
+
+    background-position: center;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+div.name{
+    padding: 10px;
+    width: 1500px;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(5, 212, 57);
+    text-shadow: 15px 20px 15px rgba(250, 16, 16, 0.7);
+    font-weight: 1000;
+    padding-top: 0%;
+
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #fe058e; 
+        color: white;
+       
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  div.text-box {
+    width: 95%;
+    padding: 95px;
+    color: #270454;
+    padding-left: 0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    
+
+   }
+
+   
+   div.list {
+    top: auto;
+    padding-top: 0%;
+  
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: inset;
+    color: #270454;
+    background-color: bisque;
+    padding-bottom: 20px;
+   
+
+   }
+   div.names{
+    width: 100%;
+   
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+
+   #Contact form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#Contact form input:focus {
+    outline: none;
+    border-color: #004080;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5);
+}
+
+div.Heading{
+    color: #000;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+div.names{
+    text-align: center;
+}
+footer{
+  color: rgb(100, 100, 98);
+}
+
+
+ 
