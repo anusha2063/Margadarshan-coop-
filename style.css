@@ -1,6 +1,6 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-    background-color: rgb(241, 166, 76);
+    
     margin: 0;
     padding: 0;
 }
@@ -8,16 +8,20 @@ body{
     color: rgb(15, 12, 12);
     text-align: center;
     font-weight: bold; 
-    background-image: url(marga.jpg); 
+    background-image: url(margadarshan\ .jpg); 
     background-size: cover; 
     font-family: 'Times New Roman', Times, serif;
+
     background-position: center;
-    height: 450px;
+
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(184, 165, 165, 0.2);
+
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 div.name{
@@ -25,7 +29,7 @@ div.name{
     width: 1500px;
     align-items: center;
     padding: 10px 20px;
-    color: rgb(11, 11, 11);
+    color: rgb(5, 212, 57);
     text-shadow: 15px 20px 15px rgba(250, 16, 16, 0.7);
     font-weight: 1000;
     padding-top: 0%;
@@ -41,19 +45,14 @@ body {
   }
   
   .navbar {
-    padding-top: 60%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
-        padding-right: 10%;
+        background-color: #fe058e; 
         color: white;
-        animation: backwards;
-        background-color: navy;
-       text-shadow: 2px 8px 10px #e69f06;
        
   }
-  
   
   .logo {
     color: white;
@@ -76,19 +75,14 @@ body {
     transition: color 0.3s ease;
   }
   div.text-box {
-    
+    width: 95%;
     padding: 95px;
     color: #270454;
-    padding-left: 100%;
+    padding-left: 0%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(237, 135, 10);
-    font-size: x-large;
-    border: 2px snow;
-    border-radius: 20px;
-    padding: 20px;
-    width: 700px;
-    -webkit-box-align: center;
+    background-color: bisque;
+    
 
    }
 
@@ -96,13 +90,8 @@ body {
    div.list {
     top: auto;
     padding-top: 0%;
-    font-size: x-large;
-    border: 2px snow;
-    border-radius: 20px;
-    padding: 20px;
-    width: 200px;
   
-    width: 58%;
+    width: 100%;
     align-items: center;
     text-align: center;
     margin: 0px;
@@ -110,7 +99,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: inset;
     color: #270454;
-    background-color:  rgb(237, 135, 10);
+    background-color: bisque;
     padding-bottom: 20px;
    
 
@@ -151,7 +140,4 @@ div.names{
 footer{
   color: rgb(100, 100, 98);
 }
-
-
-
  
