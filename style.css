@@ -1,8 +1,9 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
+    background-color: bisque;
+    overflow-x: hidden;
 }
 
 
@@ -16,8 +17,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 
     background-position: center;
-
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,36 +77,34 @@ body {
     font-size: 18px;
     transition: color 0.3s ease;
   }
-  div.text-box {
+  /* div.text-box {
     width: 95%;
     padding: 95px;
     color: #270454;
     padding-left: 0%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: bisque;
     
 
-   }
+   } */
 
    
    div.list {
-    top: auto;
-    padding-top: 0%;
-  
-    width: 100%;
+    padding-left: 205px;
+    width: 850px;
     align-items: center;
     text-align: center;
     margin: 0px;
-    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: inset;
-    color: #270454;
-    background-color: bisque;
-    padding-bottom: 20px;
-   
-
+    color: black;
+    line-height: 2;
+    font-weight: bolder;
    }
+   heading-name{
+    text-align: center;
+   }
+
    div.names{
     width: 100%;
    
@@ -116,11 +114,11 @@ body {
    }
 
    #Contact form input {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
 }
 
 
@@ -144,3 +142,24 @@ footer{
   color: rgb(100, 100, 98);
 }
  
+iframe{
+  border-radius: 15px;
+  width:80%;
+  height: 450px;
+}
+
+#About{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-box{
+  font-weight: bold;
+  line-height: 2;
+  width: 850px;
+  text-align: center;
+  padding-left: 205px;
+}
+.abt-us{
+text-align: justify;
+}
