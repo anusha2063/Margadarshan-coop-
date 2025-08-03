@@ -1,56 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="M icon.png">
         <link rel="stylesheet" href="style.css">
-
-       <title>Marga Darshan Mahila Sahakari Sanstha</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <title>Marga Darshan Mahila Sahakari Sanstha</title>
     </head>
    
     <body>
         <nav class="navbar">
-            
-            <ul class="nav-links">
-              <li><img src="M icon.png" width="30px"></li>  
-              <li><a href="#Home">Home</a></li>
-              <li><a href="#About Us">About Us</a></li>
-              <li><a href="#Services">Services</a></li>
-              <li><a href="#Contact">Contact Us</a></li>
-
-              <!-- please use login and signup button too map -->
-            </ul>
-          </nav> 
-          <section id="Home">
-        <div class="Heading">
-            <div class="name">
-                
-            <h1><b></b>Welcome to 🙏<br>
-                 Marga darshan Mahila Krishi Sahakari Cooperative Limited<b></b></h1>
-            <h2><u>Bhadrapur-2,Jhapa Nepal</u></h2>
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="M icon.png" width="40px" alt="Logo">
+                    <span class="nav-brand">Marga Darshan</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About-Us">About Us</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
-            
-
-
-        </div>
+        </nav> 
+        <section id="Home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="welcome-text">स्वागतम् 🙏</span><br>
+                        <span class="main-title">मार्गदर्शन महिला कृषि सहकारी संस्था लिमिटेड</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Bhadrapur-2, Jhapa Nepal</h2>
+                    <p class="hero-description">Empowering women, strengthening communities since 2066 B.S.</p>
+                    <div class="hero-buttons">
+                        <a href="#About-Us" class="btn btn-primary">Learn More</a>
+                        <a href="#Contact" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <style>
-           
-            
-        </style>
-        <section id="About Us">
-            <div class="text-box">
-            <h2><u>About Us</u></h2>
-            <p class="abt-us">Marga Darshan Mahila Sahakari Sanstha is a non-profit, women-led cooperative established in 2066 B.S. by a group of determined and visionary women. Born out of a shared dream to uplift and empower the local community, the cooperative has grown into a symbol of unity, strength, and resilience. Since its inception, it has remained deeply rooted in the values of self-reliance, mutual support, and social responsibility. The organization primarily focuses on enhancing financial awareness among rural families and promoting sustainable agricultural practices. Over the years, it has played a vital role in encouraging women's participation in leadership and decision-making roles, creating a platform where voices that were once unheard are now leading change. With a strong emphasis on inclusion and collective progress, Marga Darshan Mahila Sahakari continues to inspire and serve as a catalyst for grassroots transformation.</p>
-        </div>       
+        
+        <section id="About-Us" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Us</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            Marga Darshan Mahila Sahakari Sanstha is a non-profit, women-led cooperative established in 2066 B.S. by a group of determined and visionary women. Born out of a shared dream to uplift and empower the local community, the cooperative has grown into a symbol of unity, strength, and resilience.
+                        </p>
+                        <p class="about-description">
+                            Since its inception, it has remained deeply rooted in the values of self-reliance, mutual support, and social responsibility. The organization primarily focuses on enhancing financial awareness among rural families and promoting sustainable agricultural practices.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Years of Service</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Women Empowered</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-seedling"></i>
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Families Supported</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="Services"><br>
+        <section id="Services" class="services-section">
             
-            <div class="list">
-                <h2 class="heading-name"><u>Our Services</u></h2>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Empowering women through comprehensive support and development programs</p>
+                </div>
 
-            <p>Our organization serves mainly for the welfare of womens.some of our services include:
-            <ul>
+            <p style="display: none;">Our organization serves mainly for the welfare of womens.some of our services include:
+            <ul style="display: none;">
                 <li>Supported awareness programs for women’s financial independence.</li>
                 <li>Assisted in promoting savings and loan services in rural areas.</li>
                 <li>Contributed to organizing distribution of fertilizers and resources to farmers.</li>
@@ -64,45 +109,402 @@
 
             </ul>
         </p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                        <h3>Financial Independence</h3>
+                        <p>Supporting awareness programs for women's financial independence and promoting savings and loan services in rural areas.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Agricultural Support</h3>
+                        <p>Organizing distribution of fertilizers and resources to farmers while promoting sustainable agricultural practices.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Skill Development</h3>
+                        <p>Conducting comprehensive training programs in tailoring, agriculture, handicrafts, and various vocational skills.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Health & Wellness</h3>
+                        <p>Organizing health camps, hygiene awareness programs, and promoting community health initiatives.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-business-time"></i>
+                        </div>
+                        <h3>Entrepreneurship</h3>
+                        <p>Providing guidance and support for small-scale entrepreneurship and business development opportunities.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>Promoting education for girls, implementing adult literacy programs, and supporting educational initiatives.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Legal Rights</h3>
+                        <p>Facilitating workshops on legal rights, women empowerment, and creating awareness about civic responsibilities.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3>Community Support</h3>
+                        <p>Encouraging community participation, cooperative membership, and providing emergency relief during natural disasters.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="Contact"><div class="names">
-           <div class="heading"> <div class="names"><h1><u>Contact us</u></h1>
-            <p><b>मार्गदर्शन महिला सहकारी संस्था<br>भद्रपुर २, झापा<br>9817064865</p></div><form>
-                Username:<br><input type="name" placeholder="Margadarshan Sacos" id="name"><br>
-                Email:<br><input type="email" placeholder="Margadarshan@gmail.com"id="email"><br>
-                Mobile no:<br><input type="number" placeholder="9817064865" id="number"><br>
-                Comment:<br> <input type="text" placeholder="Comment..." id="comment"><br>
+        <section id="Gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Activities</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Capturing moments of empowerment, growth, and community development</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.56_a93268e8.jpg" alt="Organization Meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Organization Meeting</h4>
+                                <p>Regular meetings to discuss cooperative activities and planning</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.57_01aef0e4.jpg" alt="Committee Meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Committee Meeting</h4>
+                                <p>Strategic discussions and decision-making sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.57_705d429e.jpg" alt="Community Meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Community Meeting</h4>
+                                <p>Engaging with community members and stakeholders</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.58_2e710c6b.jpg" alt="Child Health Campaign" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Child Health Campaign</h4>
+                                <p>Health awareness and medical support for children</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.59_61cc44a1.jpg" alt="Field Visit" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Field Visit</h4>
+                                <p>On-site visits to assess community needs and progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.59_621894f1.jpg" alt="Agricultural Activities" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Agricultural Activities</h4>
+                                <p>Supporting farmers with agricultural resources and guidance</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.39.59_9a7a18f7.jpg" alt="Agriculture Support Program" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Agriculture Support Program</h4>
+                                <p>Providing agricultural tools and knowledge to local farmers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="photos/WhatsApp Image 2025-08-03 at 14.40.00_b2be8989.jpg" alt="Rashtra Dhan Diwas Celebration" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h4>Rashtra Dhan Diwas</h4>
+                                <p>National Paddy Day celebration organized by our cooperative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </form>
-        </b>
-        </div>
-
-        <div class="map">
-            <style>
-                a{
-                    color: black;
-                }
-            </style>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5598.64296268849!2d88.057095!3d26.480622!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1743961926668!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <footer>
-
-        <div class="social">
-            <p>We are also available on:</p>
-            <a href="https://www.facebook.com/share/15U4vVJ7cf/?mibextid=wwXIfr" target="_blank"><img src="fblogo.png" width="30">मार्गदर्शन महिला सहकारी संस्था</a>
-            <p>&copy; 2025 Margadarshan.All rights reserved.</p>
-        </div>
+        <section id="Contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Get in touch with us for any inquiries or support</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3>मार्गदर्शन महिला कृषि सहकारी संस्था लिमिटेड</h3>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>भद्रपुर २, झापा, Nepal</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>9817064865</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>margadarshan@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="contact-form">
+                        <form class="form">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="your.email@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Mobile Number</label>
+                                    <input type="tel" id="phone" placeholder="9817064865">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" placeholder="Your message..." rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5598.64296268849!2d88.057095!3d26.480622!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1743961926668!5m2!1sen!2snp" 
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Marga Darshan Mahila Sahakari</h3>
+                        <p>Empowering women and strengthening communities since 2066 B.S.</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About-Us">About Us</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#Gallery">Gallery</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/15U4vVJ7cf/?mibextid=wwXIfr" target="_blank" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>मार्गदर्शन महिला सहकारी संस्था</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Marga Darshan Mahila Sahakari Sanstha. All rights reserved.</p>
+                </div>
+            </div>
         </footer>
 
-
-
-
-
-
-
-
+        <script>
+            // Mobile Navigation Toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                
+                // Animate hamburger bars
+                const bars = navToggle.querySelectorAll('.bar');
+                bars.forEach((bar, index) => {
+                    if (navLinks.classList.contains('active')) {
+                        if (index === 0) bar.style.transform = 'rotate(45deg) translate(6px, 6px)';
+                        if (index === 1) bar.style.opacity = '0';
+                        if (index === 2) bar.style.transform = 'rotate(-45deg) translate(6px, -6px)';
+                    } else {
+                        bar.style.transform = 'none';
+                        bar.style.opacity = '1';
+                    }
+                });
+            });
+            
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const bars = navToggle.querySelectorAll('.bar');
+                    bars.forEach(bar => {
+                        bar.style.transform = 'none';
+                        bar.style.opacity = '1';
+                    });
+                });
+            });
+            
+            // Navbar scroll effect
+            window.addEventListener('scroll', () => {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 100) {
+                    navbar.style.background = 'linear-gradient(135deg, rgba(71, 39, 5, 0.98) 0%, rgba(90, 50, 6, 0.98) 50%, rgba(107, 61, 7, 0.98) 100%)';
+                    navbar.style.backdropFilter = 'blur(20px)';
+                } else {
+                    navbar.style.background = 'linear-gradient(135deg, #472705 0%, #5a3206 50%, #6b3d07 100%)';
+                    navbar.style.backdropFilter = 'blur(15px)';
+                }
+            });
+            
+            // Form enhancement
+            document.addEventListener('DOMContentLoaded', () => {
+                const form = document.querySelector('.form form');
+                if (form) {
+                    form.addEventListener('submit', (e) => {
+                        e.preventDefault();
+                        
+                        // Get form data
+                        const formData = new FormData(form);
+                        const name = document.getElementById('name').value;
+                        const email = document.getElementById('email').value;
+                        const phone = document.getElementById('phone').value;
+                        const message = document.getElementById('message').value;
+                        
+                        // Simple validation
+                        if (!name || !email || !message) {
+                            alert('Please fill in all required fields.');
+                            return;
+                        }
+                        
+                        // Show success message
+                        const button = form.querySelector('.btn-primary');
+                        const originalText = button.textContent;
+                        button.textContent = 'Message Sent! ✓';
+                        button.style.background = 'linear-gradient(135deg, #28a745, #20c997)';
+                        
+                        setTimeout(() => {
+                            button.textContent = originalText;
+                            button.style.background = 'linear-gradient(135deg, #ea850a 0%, #ff6b35 100%)';
+                            form.reset();
+                        }, 3000);
+                    });
+                }
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    
+                    if (target) {
+                        const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Close mobile menu if open
+                        const navLinks = document.querySelector('.nav-links');
+                        if (navLinks && navLinks.classList.contains('active')) {
+                            navLinks.classList.remove('active');
+                            const navToggle = document.querySelector('.nav-toggle');
+                            const bars = navToggle.querySelectorAll('.bar');
+                            bars.forEach(bar => {
+                                bar.style.transform = 'none';
+                                bar.style.opacity = '1';
+                            });
+                        }
+                    } else {
+                        console.warn('Target element not found for:', targetId);
+                    }
+                });
+            });
+            
+            // Active navigation highlighting
+            function updateActiveNavLink() {
+                const sections = document.querySelectorAll('section[id]');
+                const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+                
+                let currentSection = '';
+                const scrollPosition = window.scrollY + 100; // Offset for navbar
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    const href = link.getAttribute('href').substring(1); // Remove #
+                    if (href === currentSection) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            // Update active link on scroll
+            window.addEventListener('scroll', updateActiveNavLink);
+            window.addEventListener('load', updateActiveNavLink);
+        </script>
 
     </body>
 </html>
