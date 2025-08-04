@@ -82,7 +82,8 @@ body {
 }
 
 .nav-logo img {
-    width: 60px;
+
+  width: 60px;
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 4px 15px rgba(234, 133, 10, 0.4);
